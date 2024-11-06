@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laptop Details</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>LapSpot</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+  </header>
+
+  <section class="laptop-detail">
+    <div class="laptop-image">
+      <img src="laptop1.jpg" alt="Laptop Image">
+    </div>
+    <div class="laptop-info">
+      <h2>Apple MacBook Pro</h2>
+      <p><strong>Condition:</strong> New</p>
+      <p><strong>Price:</strong> $1200.00</p>
+      <p><strong>Description:</strong> A sleek, powerful laptop with high-end performance and a beautiful Retina display.</p>
+      <button onclick="rentLaptop('Apple MacBook Pro', 120)">Rent Hourly</button>
+      <button onclick="addToCart('Apple MacBook Pro', 1200)">Buy Now</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 LapSpot. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

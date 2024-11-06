@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent or Buy Laptops</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>LapSpot</h1>
+      <p>Buy & Rent New & Second Hand Laptops</p>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+  </header>
+
+  <section class="product-display">
+    <h2>Featured Laptops</h2>
+    <div class="product-container">
+      <div class="product-item">
+        <img src="laptop1.jpg" alt="Laptop 1">
+        <h3>Apple MacBook Pro</h3>
+        <p>$1,200.00</p>
+        <button onclick="rentLaptop('Apple MacBook Pro', 120)">Rent Hourly</button>
+        <button onclick="viewLaptopDetails(1)">View Details</button>
+      </div>
+      <div class="product-item">
+        <img src="laptop2.jpg" alt="Laptop 2">
+        <h3>HP Pavilion</h3>
+        <p>$600.00</p>
+        <button onclick="rentLaptop('HP Pavilion', 60)">Rent Hourly</button>
+        <button onclick="viewLaptopDetails(2)">View Details</button>
+      </div>
+      <div class="product-item">
+        <img src="laptop3.jpg" alt="Laptop 3">
+        <h3>Dell Inspiron</h3>
+        <p>$500.00</p>
+        <button onclick="rentLaptop('Dell Inspiron', 50)">Rent Hourly</button>
+        <button onclick="viewLaptopDetails(3)">View Details</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 LapSpot. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

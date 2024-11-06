@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details - Laptop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Laptop Shop</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <section class="product-details">
+    <img src="laptop1.jpg" alt="Laptop">
+    <h2>Dell XPS 13</h2>
+    <p>Price: $999.00</p>
+    <p>Processor: Intel Core i7</p>
+    <p>RAM: 16GB</p>
+    <p>Storage: 512GB SSD</p>
+    <p>Display: 13.3" Full HD</p>
+    <button onclick="addToCart('Dell XPS 13', 999)">Add to Cart</button>
+    <button onclick="rentLaptop('Dell XPS 13')">Rent (Hourly)</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Laptop Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
